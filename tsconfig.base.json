@@ -14,7 +14,16 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@demo/product/product-feature": [
+        "libs/product/product-feature/src/index.ts"
+      ],
+      "@demo/product/product-state": [
+        "libs/product/product-state/src/index.ts"
+      ],
+      "@demo/user/user-feature": ["libs/user/user-feature/src/index.ts"],
+      "@demo/user/user-state": ["libs/user/user-state/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

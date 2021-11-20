@@ -33,6 +33,18 @@
     "ngrx-demo-e2e": {
       "tags": [],
       "implicitDependencies": ["ngrx-demo"]
+    },
+    "product-product-feature": {
+      "tags": []
+    },
+    "product-product-state": {
+      "tags": []
+    },
+    "user-user-feature": {
+      "tags": []
+    },
+    "user-user-state": {
+      "tags": []
     }
   }
 }
